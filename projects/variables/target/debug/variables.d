@@ -1,0 +1,1 @@
+/Users/patrickspieker/Library/Mobile\ Documents/com~apple~CloudDocs/code/rust/projects/variables/target/debug/variables: /Users/patrickspieker/Library/Mobile\ Documents/com~apple~CloudDocs/code/rust/projects/variables/src/main.rs

@@ -1,0 +1,48 @@
+fn main() {
+    println!("Hello, world!");
+
+    let y = another_function(10);
+    println!("{y}");
+
+    if y < 5 {
+        // println!("{y}");
+    } else if y < 20 { 
+        // println!("10!");
+    }
+    
+    let _num = if y < 20 { 5 } else { 7 };
+    // println!("{num}");
+
+    loop {
+        println!("yum!");
+        break
+    }
+
+    let mut number = 5;
+
+    while number != 10 {
+        println!("{number}");
+        number += 1; 
+    }
+
+    let a = [10, 20, 30, 50];
+
+    for element in a {
+        println!("{element}");
+    }
+
+    {
+        let s = "hello";
+    }
+
+    let mut s = String::from("hello");
+    s.push_str(", world");
+    println!("{}", s);
+}
+
+fn another_function(x: i32) -> i32 {
+    println!("Another function was called!");
+    x + 1
+}
+
+
